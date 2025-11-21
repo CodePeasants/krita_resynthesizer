@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActionCollection version="2" name="Scripts">
+    <Actions category="Scripts">
+        <text>Krita Resynthesizer</text>
+
+        <Action name="kritaResynthesizer">
+        <icon></icon>
+        <text>Krita Resynthesizer</text>
+        <whatsThis>Inpaint the selection region based on surrounding context.</whatsThis>
+        <toolTip>Inpaint the selection region based on surrounding context.</toolTip>
+        <iconText></iconText>
+        <activationFlags>10000</activationFlags>
+        <activationConditions>0</activationConditions>
+        <shortcut>alt+backspace</shortcut>
+        <isCheckable>false</isCheckable>
+        <statusTip></statusTip>
+        </Action>
+    </Actions>
+</ActionCollection>
