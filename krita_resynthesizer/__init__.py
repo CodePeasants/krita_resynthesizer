@@ -1,7 +1,7 @@
 import sys
 import os
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 # Setup vendored dependencies.
 plugin_path = os.path.dirname(os.path.abspath(__file__))
