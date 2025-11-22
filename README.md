@@ -22,7 +22,7 @@ This plugin brings texture synthesis/inpainting capabilities to Krita using the 
 - This project vendors the `pillow` and `resynthesizer` projects from `pypi`.
 
 ### Setup
-- Download the `.zip` archive of the latest version of this package.
+- Download [the latest .zip archive of this package](https://github.com/CodePeasants/krita_resynthesizer/releases/latest/download/krita_resynthesizer.zip).
 - Open Krita.
 - Go to **Tools** -> **Scripts** -> **Import Python Plugin from File...** and select the `.zip` archive.
 ![Install](resources/import_script.png "Install")
