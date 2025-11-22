@@ -1,0 +1,23 @@
+<h1>Resynthesizer <i>for Krita</i></h1>
+<p>This plugin brings texture synthesis/inpainting capabilities to Krita using the Python <a href="https://github.com/light-and-ray/resynthesizer-python-lib"><strong>resynthesizer</strong></a> package.
+<p>It allows you to remove objects or fill gaps by selecting an area and generating new textures based on the surrounding pixels. This uses an old algorithm Photoshop's Content Aware Fill was based on.
+<p><a href="https://github.com/CodePeasants/krita_resynthesizer">Github</a>
+<h2>Features</h2>
+<ul>
+<li><strong>Inpainting</strong>: Inpaint selected region with <a href="https://github.com/light-and-ray/resynthesizer-python-lib"><strong>resynthesizer</strong></a>.</li>
+<li><strong>Context Padding</strong>: Control context padding for inpainting.</li>
+<li><strong>Sticky Settings</strong>: Remembers user settings between sessions.</li>
+<li><strong>Layer Control</strong>: Option to inpaint on currently selected layer or create a new layer</li>
+</ul>
+<h2>Usage</h2>
+<ul>
+    <li> Open an image.</li>
+    <li>Select the layer you want to modify.</li>
+    <li>Use any Selection Tool (Rectangular, Lasso, etc.) to select the object you want to remove or the area you want to fill.</li>
+    <li>Run Resynthesizer via any of these methods:</li>
+    <ul>
+        <li> Go to: <strong>Tools</strong> -> <strong>Scripts</strong> -> <strong>Resynthesize Selection</strong></li>
+        <li>Go to: <strong>Settings</strong> -> <strong>Dockers</strong> -> <strong>Resynthesizer</strong>, then press the <strong>Resynthesize Selection</strong> button in the docker window.</li>
+        <li><strong>Shift</strong> + <strong>Backspace</strong> hotkey (or configure a custom hotkey in keybindings).</li>
+    </ul>
+</ul>
