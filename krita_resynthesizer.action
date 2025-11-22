@@ -3,7 +3,7 @@
     <Actions category="Scripts">
         <text>Krita Resynthesizer</text>
 
-        <Action name="kritaResynthesizer">
+        <Action name="resynthesize_selection">
         <icon></icon>
         <text>Krita Resynthesizer</text>
         <whatsThis>Inpaint the selection region based on surrounding context.</whatsThis>
@@ -11,7 +11,7 @@
         <iconText></iconText>
         <activationFlags>10000</activationFlags>
         <activationConditions>0</activationConditions>
-        <shortcut>alt+backspace</shortcut>
+        <shortcut>shift+backspace</shortcut>
         <isCheckable>false</isCheckable>
         <statusTip></statusTip>
         </Action>

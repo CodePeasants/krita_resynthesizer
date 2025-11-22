@@ -1,0 +1,13 @@
+resynthesizer-1.2.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+resynthesizer-1.2.dist-info/METADATA,sha256=vNUGaMiyxMKMVLXftTJRYVogFNNKJ2DrRolaGUPIINI,1323
+resynthesizer-1.2.dist-info/RECORD,,
+resynthesizer-1.2.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+resynthesizer-1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+resynthesizer-1.2.dist-info/top_level.txt,sha256=r3AI2thUnKTiJgMb7JrzQ2A2motM0R4l8eQ2vB3XYAE,14
+resynthesizer/__init__.py,sha256=ciRZAPqRMdQ_ZXbSnGhpsWSOOuDb0CB7gboINaVk-14,81
+resynthesizer/__pycache__/__init__.cpython-310.pyc,,
+resynthesizer/__pycache__/resynthesizer.cpython-310.pyc,,
+resynthesizer/bin/libresynthesizer.dll,sha256=8efIMhHwTw12jm2IMRoJYPmR3JwZE-XAc5v0hFcb_hE,278054
+resynthesizer/bin/libresynthesizer.so,sha256=xTiPdQN2wgheXJBOyVhmFALa1OHpe5ATPjqB5wRAu7c,33592
+resynthesizer/bin/libresynthesizer_universal.dylib,sha256=ZThyKMsKoZZRbb8dDDdtBnTJve9bYSxMWUlFTqNZfKA,102920
+resynthesizer/resynthesizer.py,sha256=sz1qrxsxDk9vWNk-7NBpTJJ8mAN0qQ97_TFKSFQXrR4,4000

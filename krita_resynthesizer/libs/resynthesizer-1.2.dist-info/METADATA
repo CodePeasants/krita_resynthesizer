@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: resynthesizer
+Version: 1.2
+Summary: A very old open-source "Content-Aware Fill" method
+Home-page: https://github.com/light-and-ray/resynthesizer-python-lib
+License: GPL-3.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pillow
+
+
+Python library which wraps 61315's pure C implementation of resynthesizer (open-source Content-Aware Fill equivalent)
+
+## Usage:
+```python
+from resynthesizer import resynthesize
+from PIL import Image
+
+source = Image.open('source.jpg')
+# mask must have black background, white foreground
+mask = Image.open('mask.png')
+result = resynthesize(source, mask)
+result.save('result.jpg')
+
+```
+
+
+You can adjust resynthesizer's params if you want:
+```python
+from resynthesizer import TImageSynthParameters
+
+# defaults
+params = TImageSynthParameters()
+params.isMakeSeamlesslyTileableHorizontally = 1
+params.isMakeSeamlesslyTileableVertically = 1
+params.matchContextType = 1
+params.mapWeight = 0.5
+params.sensitivityToOutliers = 0.117
+params.patchSize = 30
+params.maxProbeCount = 200
+
+...
+
+result = resynthesize(source, mask, parameters=params)
+
+```
+
+Package repo: https://github.com/light-and-ray/resynthesizer-python-lib
+Pure C Implementation repo: https://github.com/61315/resynthesizer
+Original repo: https://github.com/bootchk/resynthesizer
+
+    
+
