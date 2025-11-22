@@ -3,9 +3,6 @@ This plugin brings texture synthesis/inpainting capabilities to Krita using the 
 
 ![Comparison](resources/landscape_comparison.png "Comparison")
 
-## DEV NOTES
-- [plugin docs](https://docs.krita.org/en/user_manual/python_scripting/krita_python_plugin_howto.html#creating-configurable-keyboard-shortcuts)
-
 ## Features
 - [x] Inpaint selected region with `resynthesizer`.
 - [x] Control context padding for inpainting.
